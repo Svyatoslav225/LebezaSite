@@ -15,6 +15,8 @@ table{
     border-collapse: collapse;
 }
 td {
+    font-size:35px;
+    text-align:center;
     border:1px , solid , orange;
 }
 form {
@@ -25,4 +27,5 @@ a {
     border:2px , solid,black;
     background-color: lightgray;
     color:rgb(219, 25, 25);
+    font-family:sans-serif;
 }
