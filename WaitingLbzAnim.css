@@ -1,0 +1,19 @@
+img{
+   animation-name:waiting;
+  animation-duration:5s;
+}
+
+@keyframes waiting{
+  from{
+    width:80px;
+    height:95px;
+  }
+  50%{
+    width:180px;
+    height:195px;
+  }
+  to{
+    width:80px;
+    height:95px;
+  }
+}
