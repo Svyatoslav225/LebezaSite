@@ -1,20 +1,21 @@
 img{
   animation-name:waiting;
   animation-duration:5s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes waiting{
   from{
-    width:80px;
-    height:95px;
+    width:95px;
+    height:80px;
   }
   50%{
-    width:180px;
-    height:195px;
+    width:195px;
+    height:180px;
   }
   to{
-    width:80px;
-    height:95px;
+    width:95px;
+    height:80px;
   }
 }
 h3{
@@ -38,4 +39,7 @@ a {
     background-color: lightgray;
     color:rgb(219, 25, 25);
     font-family:sans-serif;
+}
+h4{
+  text-align:center;
 }
