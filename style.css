@@ -29,3 +29,15 @@ a {
     color:rgb(219, 25, 25);
     font-family:sans-serif;
 }
+.lbz{
+    animation-name:anim;
+    animation-duration:10s;
+    animation-delay:infinity;
+}
+@keyframes anim{
+    0%{ color:black;}
+    30%{ color:red;}
+    60% { color:green;}
+    80%{ color:blue}
+    100%{ color:black;}
+}
