@@ -32,7 +32,7 @@ a {
 .lbza{
     animation-name:anim;
     animation-duration:10s;
-    animation-iteration-count:infinity;
+    animation-iteration-count: infinite;
 }
 @keyframes anim{
     0%{ color:black;}
