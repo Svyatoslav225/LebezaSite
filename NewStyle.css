@@ -31,9 +31,9 @@ a {
     color:rgb(219, 25, 25);
     font-family:sans-serif;
 }
-@keyfremes fanim{
+@keyframes fanim{
   0%{border:2px, dased,brown}
   30%{border:4px, solid,blue}
-  70&{border:3px, dased,red}
+  70%{border:3px, dased,red}
   100%{border:2px, dased,brown}
 }
