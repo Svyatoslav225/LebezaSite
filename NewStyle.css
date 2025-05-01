@@ -20,6 +20,7 @@ td {
     border:1px , solid , orange;
 }
 form {
+    border:2px,dashed,brown;
     background-color: rgb(179, 255, 230);
     animation-name:fanim;
     animation-duration:1s;
