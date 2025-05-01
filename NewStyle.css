@@ -1,1 +1,40 @@
-
+body {
+    background-color: rgb(205, 249, 255);
+}
+header{
+    background-color: rgb(253, 228, 194);
+    border:2px , solid , red;
+}
+footer{
+    background-color: rgb(255, 192, 110);
+    border:2px , solid , rgb(158, 0, 0);
+}
+table{
+    background-color: powderblue;
+    border:3px , solid , orange;
+    border-collapse: collapse;
+}
+td {
+    font-size:30px;
+    text-align:center;
+    border:1px , solid , orange;
+    animation-name:fanim;
+    animation-duration:1s;
+    animation-iteration-count:infinity;
+}
+form {
+    border:2px , dashed , brown;
+    background-color: rgb(179, 255, 230);
+}
+a {
+    border:2px , solid,black;
+    background-color: lightgray;
+    color:rgb(219, 25, 25);
+    font-family:sans-serif;
+}
+@keyfremes fanim{
+  0%{border:2px, dased,brown}
+  30%{border:4px, solid,blue}
+  70&{border:3px, dased,red}
+  100%{border:2px, dased,brown}
+}
